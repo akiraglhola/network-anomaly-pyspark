@@ -7,3 +7,5 @@ data/output/
 .pyenv-version
 spark-warehouse/
 derby.log
+.python-version
+test*.py
