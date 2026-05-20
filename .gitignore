@@ -9,3 +9,4 @@ spark-warehouse/
 derby.log
 .python-version
 test*.py
+doc/

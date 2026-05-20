@@ -83,6 +83,18 @@ python src/generate_network_logs.py --rows 500000 --output data/raw/network_logs
 # Run full pipeline
 python src/export.py
 ```
+--- 
+
+## Documentation
+
+API documentation can be generated locally from the docstrings using `pdoc`:
+
+```bash
+pip install pdoc
+pdoc src/ingest.py src/transform.py src/detect.py src/export.py src/generate_network_logs.py --output-dir doc/
+```
+
+Then open `doc/index.html` in your browser.
 
 ---
 
